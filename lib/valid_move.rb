@@ -1,4 +1,4 @@
-board = [" "," "," "," "," "," "," "," "," "]
+board = [" "," ","X"," "," "," "," "," "," "]
 
 def valid_move?(board, position)
 	spot = position.to_i - 1
